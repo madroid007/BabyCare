@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="40sp" android:textColor="@android:color/background_light" android:text="@string/title_more" android:gravity="center" android:background="@color/colorPrimary" android:id="@+id/title_today"/>
+    -
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="0dp" android:layout_width="match_parent" android:gravity="center" android:layout_weight="1">
+    -
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="0dp" android:gravity="center" android:layout_weight="1">
+
+    <Button android:layout_height="120dp" android:layout_width="120dp" android:textColor="@android:color/background_light" android:text="@string/btn_babyNames" android:background="@drawable/babynames" android:id="@+id/btn_babynames" android:paddingTop="95dp"/>
+
+</LinearLayout>
+    -
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="0dp" android:gravity="center" android:layout_weight="1">
+
+    <Button android:layout_height="120dp" android:layout_width="120dp" android:textColor="@android:color/background_light" android:text="@string/btn_video" android:background="@drawable/videos" android:id="@+id/btn_videos" android:paddingTop="95dp"/>
+
+</LinearLayout>
+    -
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="0dp" android:gravity="center" android:layout_weight="1">
+
+    <Button android:layout_height="120dp" android:layout_width="120dp" android:textColor="@android:color/background_dark" android:text="@string/btn_hospitalbags" android:background="@drawable/bags" android:id="@+id/btn_hosp_bags" android:paddingTop="95dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+    -
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="0dp" android:layout_width="match_parent" android:gravity="center" android:layout_weight="1">
+    -
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="0dp" android:gravity="center" android:layout_weight="1">
+
+    <Button android:layout_height="120dp" android:layout_width="120dp" android:textColor="@android:color/background_light" android:text="@string/btn_facebook" android:background="@drawable/facebook" android:id="@+id/btn_facebook" android:paddingTop="95dp"/>
+
+</LinearLayout>
+    -
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="0dp" android:gravity="center" android:layout_weight="1">
+
+    <Button android:layout_height="120dp" android:layout_width="120dp" android:textColor="@android:color/background_dark" android:background="@drawable/moreapp" android:id="@+id/btn_moreapp" android:paddingTop="60dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

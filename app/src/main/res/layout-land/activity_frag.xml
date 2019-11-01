@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myapp.madroid.babycare.FragActivity">
+
+    <FrameLayout
+        android:id="@+id/frammmmmmm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    -
+
+    -
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:gravity="center"
+        android:background="#E91E63"
+        android:orientation="vertical">
+        -
+
+        -
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_frag1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/titles_text_view"
+                android:text="@string/title_today"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+        -
+
+        -
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_frag2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/titles_text_view"
+                android:text="@string/title_baby"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+        -
+
+        -
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_frag3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/titles_text_view"
+                android:text="@string/title_me"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+        -
+
+        -
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_frag4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/titles_text_view"
+                android:text="@string/title_more"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_level_button"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/next_level" />
+
+    <!-- view for AdMob Banner Ad -->
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>

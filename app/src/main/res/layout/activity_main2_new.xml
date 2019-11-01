@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        tools:text="@string/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_name"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etxt_name"
+        android:id="@+id/etxt_name"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
+        app:layout_constraintRight_toRightOf="@+id/txt_name" />
+
+
+
+    <TextView
+        tools:text="@string/txt_hight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_hight"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxt_name" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/etxt_hight"
+        android:id="@+id/btn_hight"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_hight"
+        app:layout_constraintTop_toBottomOf="@+id/txt_hight"
+        app:layout_constraintRight_toRightOf="@+id/txt_hight" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/img_dummy1"
+        app:layout_constraintRight_toLeftOf="@+id/txt_weight"
+        app:layout_constraintTop_toBottomOf="@+id/etxt_name"
+        app:layout_constraintLeft_toRightOf="@+id/txt_hight"/>
+
+
+    <TextView
+        tools:text="@string/txt_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_weight"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxt_name"
+        app:layout_constraintLeft_toRightOf="@+id/img_dummy1"
+         />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/etxt_weight"
+        android:id="@+id/btn_weight"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_weight"
+        app:layout_constraintTop_toBottomOf="@+id/txt_weight"
+        app:layout_constraintRight_toRightOf="@+id/txt_weight" />
+
+    <TextView
+        android:text="@string/txt_dueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_enter_date"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hight"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

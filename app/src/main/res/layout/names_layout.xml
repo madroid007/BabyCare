@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txt_layout_baby_name"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btn_heart"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:background="@drawable/heartoff" />
+
+</LinearLayout>

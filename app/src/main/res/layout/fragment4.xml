@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_babynames"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/babynames"
+        android:maxHeight="120dp"
+        android:maxWidth="250dp"
+        android:text="@string/btn_babyNames"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btn_videos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/videos"
+        android:maxHeight="120dp"
+        android:maxWidth="250dp"
+        android:text="@string/btn_video"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/facebook"
+        android:maxHeight="120dp"
+        android:maxWidth="250dp"
+        android:text="@string/btn_facebook"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btn_hosp_bags"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/bags"
+        android:maxHeight="120dp"
+        android:maxWidth="250dp"
+        android:text="@string/btn_hospitalbags"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btn_moreapp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/moreapp"
+        android:maxHeight="120dp"
+        android:maxWidth="250dp"
+        android:text="@string/btn_moreapps"
+        android:textColor="@android:color/background_dark" />
+
+</LinearLayout>

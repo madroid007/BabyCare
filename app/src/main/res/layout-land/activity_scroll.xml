@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myapp.madroid.babycare.ScrollActivity">
+
+
+    -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_scroll"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical" />
+
+
+        -
+
+        <ScrollView
+            android:id="@+id/scrollllllll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/adView2">
+
+            <TextView
+                android:id="@+id/txt_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="280x80"
+        ads:adUnitId="@string/native_ad_unit_id"></com.google.android.gms.ads.NativeExpressAdView>
+
+    <!-- view for AdMob Banner Ad -->
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/title_me"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_me_week_num"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+    -
+
+    -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_guide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/guide"
+            android:paddingTop="16dp"
+            android:text="@string/btn_motherguide" />
+
+        <Button
+            android:id="@+id/btn_weight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/weightt"
+            android:paddingTop="16dp"
+            android:text="@string/btn_motherweight" />
+
+    </LinearLayout>
+    -
+
+    -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_hints"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/hint"
+            android:paddingTop="16dp"
+            android:text="@string/btn_mothertips" />
+
+        <Button
+            android:id="@+id/btn_changes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mother"
+            android:paddingTop="16dp"
+            android:text="@string/btn_motherchanges" />
+
+    </LinearLayout>
+
+</LinearLayout>
